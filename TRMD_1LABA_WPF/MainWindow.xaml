@@ -1,0 +1,21 @@
+﻿<Window x:Class="TRMD_1LABA_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TRMD_1LABA_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="292" Width="424">
+    <StackPanel>
+        <Label x:Name="label1" Content="Login" HorizontalAlignment="Center" Margin="0,22,0,0" Height="39" Width="65" RenderTransformOrigin="0.487,0.556" FontSize="20" FontWeight="Bold" Uid="label1"/>
+        <TextBox x:Name="textBox1" Width="200" />
+        <TextBox x:Name="textBox2" Width="200" Margin="0,10,0,10" />
+        <CheckBox x:Name="checkBox1" Content="Remember me?" HorizontalAlignment="Right" Margin="0,7,110,7" />
+        <Button Content="Login" Width="100" Click="Button_Click"/>
+        <Label x:Name="label3" Width="200" Margin="0,7,0,0" Uid="label2" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Lime" Content="Welcome on board" />
+        <Label x:Name ="label2" Margin="0,7,0,0" Width="165" Uid="label3" Content="Incorrect login or password" HorizontalAlignment="Center" VerticalAlignment="Center" Background="White" FontWeight="Bold" Foreground="Red" />
+
+    </StackPanel>
+
+
+</Window>
